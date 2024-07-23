@@ -1,0 +1,124 @@
+
+
+#popular-places {
+    
+    background-color: black;
+    background-color: transparent;
+    margin-top: 30px;
+
+
+   
+   
+}
+#popular-places h3 {
+    color: rgb(205, 9, 81);
+    padding-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.places-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 10%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.place {
+    width: 30%;
+    height: auto;
+    margin-bottom: 24px;
+    position: relative;
+
+
+}
+  
+
+
+.place img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+ 
+   
+    /* display: block; */
+}
+
+/* Darken image on hover */
+.place img:hover {
+    filter: brightness(50%) contrast(150%);
+}
+
+
+
+
+/* Hide text initially */
+.placeText {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.5s; /* Smooth transition for showing the text */
+}
+
+/* Show text on hover */
+.place:hover .placeText {
+    opacity: 1;
+}
+#operator-container {
+    margin-top: 30px;
+    height: 100%;
+    /* border: 1px solid antiquewhite; */
+    background-color: white;
+   
+    margin: 0 auto;
+    
+}
+
+.operator {
+    text-align: center;
+
+}
+.operator h3 {
+    color: rgb(205, 9, 81);
+    margin-bottom: 50px;
+    font-style: initial;
+}
+.operator-name {
+
+    width: 80%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+}
+
+.operator-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+ 
+
+}
+.operator-list ul li {
+    font-style: inherit;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.operator-list  {
+ 
+  
+    width: 100%;
+    margin-bottom: 20px;
+    
+  
+
+}

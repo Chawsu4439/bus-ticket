@@ -1,0 +1,50 @@
+/* Fixed navbar with box-shadow and white background */
+.navbar-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjusted opacity for background */
+    backdrop-filter: blur(5px);
+    opacity: .8;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Adjust the main content to avoid being hidden behind the fixed navbar */
+/* body {
+    padding-top: 70px; /* Adjust according to the height of your navbar */
+ /* */ 
+
+/* Styles for navbar links */
+.navbar-nav .nav-link-bar {
+    color: black !important; /* Text color */
+    margin: 0 15px; /* Adjust margin as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link-bar:hover {
+    color: #007BFF !important; /* Hover text color */
+}
+
+/* Style for the navbar brand */
+.navbar-brand-ticket {
+    font-size: 24px; /* Adjust brand font size */
+    font-weight: bold; /* Adjust brand font weight */
+    color: rgb(205, 9, 81) !important; /* Text color for the brand */
+    text-decoration: none;
+}
+
+/* Additional styles for the collapse button */
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1); /* Adjust border color */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+

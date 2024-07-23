@@ -1,0 +1,133 @@
+.site-footer {
+    background-color: black;
+    color: #ffffff;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.site-footer .containerFooter {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+.footer-about {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li a {
+    color: #120a0a;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    background-color: #c6d7e7;
+    transition: background-color 0.3s;
+}
+
+.social-icons li a:hover {
+    background-color: #e74c3c;
+}
+
+.list-unstyled {
+    padding: 0;
+    list-style: none;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.contact-list {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list li i {
+    margin-right: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 5px 10px;
+    flex: 1;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.subscribe-form button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.bottom-footer {
+    border-top: 1px solid #34495e;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 30px;
+}
+.text-center {
+    text-align: center;
+    width:100%;
+}
+/* .logo-container img {
+    max-width: 50px;
+    margin-left: 10px;
+} */
+
+@media (max-width: 768px) {
+    .footer-col {
+        text-align: center;
+    }
+    .subscribe-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .subscribe-form input[type="email"] {
+        margin-bottom: 10px;
+    }
+    .bottom-footer .row {
+        text-align: center;
+    }
+    .logo-container img {
+        max-width: 40px;
+        margin-top: 10px;
+    }
+}
